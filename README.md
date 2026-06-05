@@ -1,8 +1,8 @@
-# 🧠 Natural Language Processing
+# Natural Language Processing
 
 A collection of NLP concepts and implementations in Python, covering tokenization, stemming, lemmatization, word embeddings, and more.
 
-## 📚 Topics Covered
+## Topics Covered
 
 - **Tokenization** — Splitting text into words and sentences using NLTK
 - **Stemming** — Reducing words to their root form
@@ -10,7 +10,7 @@ A collection of NLP concepts and implementations in Python, covering tokenizatio
 - **Word2Vec** — Word embeddings using Gensim
 - **Text Preprocessing** — Cleaning and preparing text data for NLP tasks
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.x
 - Jupyter Notebook
