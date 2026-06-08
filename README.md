@@ -19,7 +19,7 @@ A collection of NLP concepts and implementations in Python, covering tokenizatio
 - Scipy
 - NumPy
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### 1. Clone the repository
 ```bash
@@ -56,7 +56,7 @@ nltk.download('punkt')
 nltk.download('wordnet')
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 NATURAL_LANGUAGE_PROCESSING/
@@ -66,7 +66,7 @@ NATURAL_LANGUAGE_PROCESSING/
 └── README.md             # Project documentation
 ```
 
-## 🚀 Usage
+##  Usage
 
 Open any `.ipynb` file in Jupyter Notebook or VS Code and run the cells:
 
@@ -74,7 +74,7 @@ Open any `.ipynb` file in Jupyter Notebook or VS Code and run the cells:
 jupyter notebook
 ```
 
-## 👨‍💻 Author
+##  Author
 
 **Nandkishor** — [@nandkishor-ux](https://github.com/nandkishor-ux)
 
