@@ -2,16 +2,19 @@ name: Daily Auto Commit
 
 on:
   schedule:
-    - cron: '30 18 * * *'  # Roz 12:00 AM IST (UTC+5:30)
-  workflow_dispatch:  # Manual trigger bhi kar sako
+    - cron: '30 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   auto-commit:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Update daily log
         run: |
