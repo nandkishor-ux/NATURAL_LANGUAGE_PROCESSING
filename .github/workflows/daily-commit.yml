@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update daily log
         run: |
@@ -25,5 +27,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add daily-log.txt
-          git commit -m "daily: $(date '+%Y-%m-%d')"
+          git commit -m "daily: $(date '+%Y-%m-%d')" || echo "Nothing to commit"
           git push
