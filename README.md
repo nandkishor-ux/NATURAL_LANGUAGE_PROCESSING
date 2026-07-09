@@ -1,6 +1,6 @@
 # Natural Language Processing
 
-A collection of NLP concepts and implementations in Python, covering tokenization, stemming, lemmatization, word embeddings, and more.
+A collection of NLP concepts and implementations in Python, covering tokenization, stemming, lemmatization, word embeddings, and more..
 
 ## Topics Covered
 
